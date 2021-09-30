@@ -1,0 +1,25 @@
+title:              Vignesh Venkataraman
+email:              mvenkataraman@ph.iitr.ac.in
+description:        
+author:             VIGNESHinZONE
+baseurl:            ""
+url:                "https://vigneshinzone.github.io"
+
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    VIGNESHinZONE
+facebook_username:  
+instagram_username:  
+linkedin_username:  vigneshvenkataraman25 
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
