@@ -45,4 +45,5 @@ Im yet to read this and it probably uses CNN.
 3. [CS 224N Default Final Project: Question Answering](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/default_project/default_project_v2.pdf)
 4. [BiDAF Model for Question Answering](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760988.pdf)
 
-
+5. [Approach for SQUAD 2.0](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15743593.pdf)
+6. [Original SQUAD2.0 paper](https://arxiv.org/pdf/1806.03822.pdf)
