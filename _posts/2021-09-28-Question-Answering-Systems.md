@@ -47,3 +47,25 @@ Im yet to read this and it probably uses CNN.
 
 5. [Approach for SQUAD 2.0](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15743593.pdf)
 6. [Original SQUAD2.0 paper](https://arxiv.org/pdf/1806.03822.pdf)
+
+
+## Short Notes on Bidaf Model
+
+[paper](https://arxiv.org/abs/1611.01603) [code](https://github.com/allenai/bi-att-flow)
+
+Paper was introduced in 2016 inorder to solve tasks that query from long context words(Machine Comprehension or Question Answering) and uses attention mechanism to approach the problem.
+
+Important Highlights mentioned in Abstract section - 
+
+> BIDAF includes character-level, word-level, and contextual embeddings,
+and uses bi-directional attention flow to obtain a query-aware context representation
+
+> Our experiments show that memory-less attention gives a clear advantage over dynamic attention
+
+> we use attention mechanisms in both directions, query-to-context and context-to-query, which provide complimentary information to each other.
+
+![Model Architecture](/img/posts/Question-Answering-Systems/Model_Architecture.jpg)
+### Model
+
+As seen per the figure we pass the model through two seperate backbone networks for each Context and Query sentences. This Backbone in the bottom half uses three seperate encoding mechanism - Character Embedding Layer, Word Embedding Layer & Contextual Embedding Layer
+

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-09-28T17:00:58+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Vignesh Venkataraman</title><author><name>VIGNESHinZONE</name></author><entry><title type="html">Question Answering Systems</title><link href="http://localhost:4000/2021/09/28/Question-Answering-Systems.html" rel="alternate" type="text/html" title="Question Answering Systems" /><published>2021-09-28T00:00:00+05:30</published><updated>2021-09-28T00:00:00+05:30</updated><id>http://localhost:4000/2021/09/28/Question-Answering-Systems</id><content type="html" xml:base="http://localhost:4000/2021/09/28/Question-Answering-Systems.html">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-12T05:48:06+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Vignesh Venkataraman</title><author><name>VIGNESHinZONE</name></author><entry><title type="html">Question Answering Systems</title><link href="http://localhost:4000/2021/09/28/Question-Answering-Systems.html" rel="alternate" type="text/html" title="Question Answering Systems" /><published>2021-09-28T00:00:00+05:30</published><updated>2021-09-28T00:00:00+05:30</updated><id>http://localhost:4000/2021/09/28/Question-Answering-Systems</id><content type="html" xml:base="http://localhost:4000/2021/09/28/Question-Answering-Systems.html">&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 
 &lt;p&gt;In the Fall of 2022, I had taken the CS528-NLP and as part of this course, we supposed to work on course projects. I will using this post to document my learning on Question Answering Systems.&lt;/p&gt;
 
@@ -6,7 +6,73 @@
 
 &lt;h2 id=&quot;notes-from-chapter-23--question-answering&quot;&gt;Notes from Chapter &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/&quot;&gt;23- Question Answering&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;In following section, lets look into the details given about Question Answering systems from &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/&quot;&gt;Speech and Language Processing&lt;/a&gt; book by Dan Jurafsky.&lt;/p&gt;</content><author><name>VIGNESHinZONE</name></author><summary type="html">Background</summary></entry><entry><title type="html">Physics Informed Nueral Networks in Jax</title><link href="http://localhost:4000/2021/08/22/Writing-Tutorial.html" rel="alternate" type="text/html" title="Physics Informed Nueral Networks in Jax" /><published>2021-08-22T00:00:00+05:30</published><updated>2021-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2021/08/22/Writing-Tutorial</id><content type="html" xml:base="http://localhost:4000/2021/08/22/Writing-Tutorial.html">&lt;h1 id=&quot;tutorial-33-physics-informed-neural-networks-using-jaxmodel--pinn_model&quot;&gt;Tutorial 33: Physics Informed Neural Networks using JaxModel &amp;amp; PINN_Model&lt;/h1&gt;
+&lt;p&gt;In following section, lets look into the details given about Question Answering systems from &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/&quot;&gt;Speech and Language Processing&lt;/a&gt; book by Dan Jurafsky.&lt;/p&gt;
+
+&lt;h2 id=&quot;blogs-i-would-like-to-explore--&quot;&gt;Blogs I would like to explore -&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/building-a-question-answering-system-part-1-9388aadff507&quot;&gt;Building a Question-Answering System from Scratch— Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;She uses sentence embeddings, to find similarity with context &amp;amp; question. She also explores stratergy, parse tree of a sentence is used for getting the answers. And also unsupervised stratergies mentioned.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/nlp-building-a-question-answering-model-ed0529a68c54&quot;&gt;Building a Question Answering model&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Again uses attention vectors in LSTM &amp;amp; explores BiDAF model&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/analytics-vidhya/build-a-trivia-bot-using-t5-transformer-345ff83205b6&quot;&gt;Build a Trivia Bot using T5 Transformer&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Explains the 3 diffrent types of QA systems. She talks about 3 stratergies where
+    - Compress all the information in the weight parameters. T5 model here
+    - For very long context (databases of documents), here we find top-k documents.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/implementing-question-answering-networks-with-cnns-5ae5f08e312b&quot;&gt;Implementing QANet (Question Answering Network) with CNNs and self attentions
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Im yet to read this and it probably uses CNN.&lt;/p&gt;
+
+&lt;h2 id=&quot;papersrepo-i-would-like-to-explore--&quot;&gt;Papers/repo I would like to explore -&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/BAJUKA/SQuAD-NLP&quot;&gt;Question Answering on SQuAD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://colab.research.google.com/github/NVIDIA/NeMo/blob/main/tutorials/nlp/Question_Answering_Squad.ipynb#scrollTo=n8HZrDmr12_-&quot;&gt;Probably uses huggingace directly for QA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/default_project/default_project_v2.pdf&quot;&gt;CS 224N Default Final Project: Question Answering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760988.pdf&quot;&gt;BiDAF Model for Question Answering&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15743593.pdf&quot;&gt;Approach for SQUAD 2.0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1806.03822.pdf&quot;&gt;Original SQUAD2.0 paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;short-notes-on-bidaf-model&quot;&gt;Short Notes on Bidaf Model&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1611.01603&quot;&gt;paper&lt;/a&gt; &lt;a href=&quot;https://github.com/allenai/bi-att-flow&quot;&gt;code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Paper was introduced in 2016 inorder to solve tasks that query from long context words(Machine Comprehension or Question Answering) and uses attention mechanism to approach the problem.&lt;/p&gt;
+
+&lt;p&gt;Important Highlights mentioned in Abstract section -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;BIDAF includes character-level, word-level, and contextual embeddings,
+and uses bi-directional attention flow to obtain a query-aware context representation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our experiments show that memory-less attention gives a clear advantage over dynamic attention&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;we use attention mechanisms in both directions, query-to-context and context-to-query, which provide complimentary information to each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/Question-Answering-Systems/Model_Architecture.jpg&quot; alt=&quot;Model Architecture&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;model&quot;&gt;Model&lt;/h3&gt;</content><author><name>VIGNESHinZONE</name></author><summary type="html">Background</summary></entry><entry><title type="html">Physics Informed Nueral Networks in Jax</title><link href="http://localhost:4000/2021/08/22/Writing-Tutorial.html" rel="alternate" type="text/html" title="Physics Informed Nueral Networks in Jax" /><published>2021-08-22T00:00:00+05:30</published><updated>2021-08-22T00:00:00+05:30</updated><id>http://localhost:4000/2021/08/22/Writing-Tutorial</id><content type="html" xml:base="http://localhost:4000/2021/08/22/Writing-Tutorial.html">&lt;h1 id=&quot;tutorial-33-physics-informed-neural-networks-using-jaxmodel--pinn_model&quot;&gt;Tutorial 33: Physics Informed Neural Networks using JaxModel &amp;amp; PINN_Model&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/VIGNESHinZONE&quot;&gt;Vignesh Venkataraman&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

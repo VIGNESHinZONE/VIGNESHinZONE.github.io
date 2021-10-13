@@ -74,7 +74,7 @@
               <a href="#">VIGNESHinZONE</a>
               on September 28, 2021 &middot; <span class="reading-time" title="Estimated read time">
   
-   1 min  read </span>
+   2 mins  read </span>
 
             </span>
           </div>
@@ -96,6 +96,72 @@
 <h2 id="notes-from-chapter-23--question-answering">Notes from Chapter <a href="https://web.stanford.edu/~jurafsky/slp3/">23- Question Answering</a></h2>
 
 <p>In following section, lets look into the details given about Question Answering systems from <a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing</a> book by Dan Jurafsky.</p>
+
+<h2 id="blogs-i-would-like-to-explore--">Blogs I would like to explore -</h2>
+
+<ol>
+  <li><a href="https://towardsdatascience.com/building-a-question-answering-system-part-1-9388aadff507">Building a Question-Answering System from Scratch— Part 1</a></li>
+</ol>
+
+<p>She uses sentence embeddings, to find similarity with context &amp; question. She also explores stratergy, parse tree of a sentence is used for getting the answers. And also unsupervised stratergies mentioned.</p>
+
+<ol>
+  <li><a href="https://towardsdatascience.com/nlp-building-a-question-answering-model-ed0529a68c54">Building a Question Answering model</a></li>
+</ol>
+
+<p>Again uses attention vectors in LSTM &amp; explores BiDAF model</p>
+
+<ol>
+  <li><a href="https://medium.com/analytics-vidhya/build-a-trivia-bot-using-t5-transformer-345ff83205b6">Build a Trivia Bot using T5 Transformer</a></li>
+</ol>
+
+<p>Explains the 3 diffrent types of QA systems. She talks about 3 stratergies where
+    - Compress all the information in the weight parameters. T5 model here
+    - For very long context (databases of documents), here we find top-k documents.</p>
+
+<ol>
+  <li><a href="https://towardsdatascience.com/implementing-question-answering-networks-with-cnns-5ae5f08e312b">Implementing QANet (Question Answering Network) with CNNs and self attentions
+</a></li>
+</ol>
+
+<p>Im yet to read this and it probably uses CNN.</p>
+
+<h2 id="papersrepo-i-would-like-to-explore--">Papers/repo I would like to explore -</h2>
+
+<ol>
+  <li><a href="https://github.com/BAJUKA/SQuAD-NLP">Question Answering on SQuAD</a></li>
+  <li><a href="https://colab.research.google.com/github/NVIDIA/NeMo/blob/main/tutorials/nlp/Question_Answering_Squad.ipynb#scrollTo=n8HZrDmr12_-">Probably uses huggingace directly for QA</a></li>
+  <li><a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/default_project/default_project_v2.pdf">CS 224N Default Final Project: Question Answering</a></li>
+  <li>
+    <p><a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760988.pdf">BiDAF Model for Question Answering</a></p>
+  </li>
+  <li><a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15743593.pdf">Approach for SQUAD 2.0</a></li>
+  <li><a href="https://arxiv.org/pdf/1806.03822.pdf">Original SQUAD2.0 paper</a></li>
+</ol>
+
+<h2 id="short-notes-on-bidaf-model">Short Notes on Bidaf Model</h2>
+
+<p><a href="https://arxiv.org/abs/1611.01603">paper</a> <a href="https://github.com/allenai/bi-att-flow">code</a></p>
+
+<p>Paper was introduced in 2016 inorder to solve tasks that query from long context words(Machine Comprehension or Question Answering) and uses attention mechanism to approach the problem.</p>
+
+<p>Important Highlights mentioned in Abstract section -</p>
+
+<blockquote>
+  <p>BIDAF includes character-level, word-level, and contextual embeddings,
+and uses bi-directional attention flow to obtain a query-aware context representation</p>
+</blockquote>
+
+<blockquote>
+  <p>Our experiments show that memory-less attention gives a clear advantage over dynamic attention</p>
+</blockquote>
+
+<blockquote>
+  <p>we use attention mechanisms in both directions, query-to-context and context-to-query, which provide complimentary information to each other.</p>
+</blockquote>
+
+<p><img src="/img/posts/Question-Answering-Systems/Model_Architecture.jpg" alt="Model Architecture" /></p>
+<h3 id="model">Model</h3>
 
 
 
